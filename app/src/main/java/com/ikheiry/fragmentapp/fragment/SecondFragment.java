@@ -9,16 +9,18 @@ import android.view.ViewGroup;
 
 import com.ikheiry.fragmentapp.R;
 
-public class ArticleFragment extends Fragment {
+public class SecondFragment extends Fragment {
 
-    public ArticleFragment() {
+
+    public SecondFragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_article, container, false);
+        return inflater.inflate(R.layout.fragment_second, container, false);
     }
 
 }
